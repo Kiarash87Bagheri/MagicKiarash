@@ -28,19 +28,10 @@ body {
     font-weight: bold;
     color: #b22222;
     text-align: center;
-    text-shadow: 0 0 10px rgba(178, 34, 34, 0.6), 0 0 20px rgba(178, 34, 34, 0.3);
+    text-shadow: 0 0 10px rgba(215, 66, 66, 0.6), 0 0 20px rgba(178, 34, 34, 0.3);
     margin-bottom: 30px;
-    animation: glow 2s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px rgba(178, 34, 34, 0.4);
-    }
-    to {
-        text-shadow: 0 0 20px rgba(178, 34, 34, 0.9);
-    }
-}
 
 .frm {
     background: #1e1e1e;
@@ -107,21 +98,3 @@ button:focus {
     outline: none;
 }
 
-@media (max-width: 600px) {
-    .form-container {
-        max-width: 100%;
-    }
-    .frm {
-        padding: 30px;
-    }
-    .frm h2 {
-        font-size: 22px;
-    }
-    input, button {
-        font-size: 16px;
-    }
-    .logo {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-}
